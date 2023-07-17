@@ -49,13 +49,13 @@
 }
 
 /* MAIN */
-.image-text-block, .text-image-block{
+.image-text-block, .text-image-block, .main-bottom-block{
   height: fit-content;
   padding: 30px 20%;
   display: flex;
 }
 
-.text-image-block{
+.text-image-block, .main-bottom-block{
   background-color: grey;
 }
 
@@ -73,4 +73,12 @@
   background-color: pink;
   flex-grow: 1;
 }
+
+.bottom-box{
+  background-color: green;
+  border: 2px dashed black;
+  height: 500px;
+  width: 100%;
+}
+
 
