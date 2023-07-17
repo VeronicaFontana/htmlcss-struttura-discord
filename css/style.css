@@ -81,4 +81,37 @@
   width: 100%;
 }
 
+/* FOOTER */
+.info-block, .fondo{
+  background-color: black;
+  padding: 5px 20%;
+  display: flex;
+}
+
+.info-block{
+  border-bottom: 1px solid grey;
+}
+
+.column-box{
+  background-color: bisque;
+  height: 500px;
+  width: 100%;
+  border: 2px dashed black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social{
+  background-color: pink;
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 2;
+}
+
+.elenco{
+  background-color: rgb(128, 128, 201);
+  border: 2px dashed rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+
 
