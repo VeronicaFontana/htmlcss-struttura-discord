@@ -113,5 +113,27 @@
   flex-grow: 1;
 }
 
+.fondo{
+  padding: 20px 20% 0;
+}
+
+.fondo-box{
+  background-color: aquamarine;
+  height: 70px;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-logo, .button{
+  background-color: pink;
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+
+
 
 
