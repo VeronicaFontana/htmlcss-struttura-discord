@@ -51,7 +51,6 @@
 /* MAIN */
 .image-text-block, .text-image-block{
   height: fit-content;
-
   padding: 30px 20%;
   display: flex;
 }
