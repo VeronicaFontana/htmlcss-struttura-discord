@@ -7,26 +7,44 @@
 
 /* HEADER */
 .top-menu{
+  background-color: beige;
+  padding: 10px;
+}
+
+.box-menu{
   background-color: yellow;
   width: 60%;
   height: 30px;
-  margin: 10px auto;
+  margin: 0px auto;
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.top-menu span{
+.box-menu span{
   margin: 0 10px;
   height: 30px;
   display: flex;
   align-items: center;
 }
 
-.top-menu #link-menu{
+.box-menu #link-menu{
   width: 60%;
   background-color: blue;
   justify-content: center;
+}
+
+.top-image{
+  background-color: blue;
+  padding: 30px;
+}
+
+.box-top-image{
+  background-color: rgb(221, 123, 139);
+  width: 40%;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px dashed black;
 }
 
