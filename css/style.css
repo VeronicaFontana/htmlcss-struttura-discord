@@ -48,3 +48,30 @@
   border: 2px dashed black;
 }
 
+/* MAIN */
+.image-text-block, .text-image-block{
+  height: fit-content;
+
+  padding: 30px 20%;
+  display: flex;
+}
+
+.text-image-block{
+  background-color: grey;
+}
+
+.image-box, .text-box{
+  border: 2px dashed black;
+  height: 400px;
+}
+
+.image-box{
+  background-color: rgb(97, 97, 252);
+  flex-grow: 2;
+}
+
+.text-box{
+  background-color: pink;
+  flex-grow: 1;
+}
+
