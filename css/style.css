@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* HEADER */
+.top-menu{
+  background-color: yellow;
+  width: 60%;
+  height: 30px;
+  margin: 10px auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu span{
+  margin: 0 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.top-menu #link-menu{
+  width: 60%;
+  background-color: blue;
+  justify-content: center;
+}
+
