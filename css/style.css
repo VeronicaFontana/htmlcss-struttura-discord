@@ -8,14 +8,14 @@
 /* HEADER */
 .top-menu{
   background-color: beige;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .box-menu{
   background-color: yellow;
-  width: 60%;
-  height: 30px;
-  margin: 0px auto;
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto;
   border: 1px solid black;
   display: flex;
   justify-content: space-between;
@@ -35,14 +35,19 @@
   justify-content: center;
 }
 
-.top-image{
+.top{
   background-color: blue;
-  padding: 30px;
+}
+.top-image{
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 30px 0; 
 }
 
 .box-top-image{
   background-color: rgb(221, 123, 139);
-  width: 40%;
+  width: 600px;
   height: 300px;
   margin: 0 auto;
   border: 2px dashed black;
@@ -58,7 +63,7 @@
   display: flex;
 }
 
-.box1{
+.box{
   background-color: grey;
 }
 
@@ -87,7 +92,6 @@
 /* FOOTER */
 .info-block, .fondo{
   background-color: black;
-  padding: 5px 20%;
   display: flex;
 }
 
@@ -96,9 +100,11 @@
 }
 
 .column-box{
-  background-color: bisque;
   height: 500px;
-  width: 100%;
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 30px 0;
   border: 2px dashed black;
   display: flex;
   margin-bottom: 20px;
@@ -116,15 +122,14 @@
   flex-grow: 1;
 }
 
-.fondo{
-  padding: 20px 20% 0;
-}
 
 .fondo-box{
   background-color: aquamarine;
   height: 70px;
-  width: 100%;
-  padding: 20px 0;
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 30px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
